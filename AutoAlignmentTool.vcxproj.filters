@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{9b943650-f0b2-43c3-899f-36bb21f2ee23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{85b4c0ac-b94f-4e38-814e-d2d44e87cc05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timestamp">
+      <UniqueIdentifier>{d0af4a29-f761-4955-a41b-dd3b71f2d05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BatchFile">
+      <UniqueIdentifier>{fbfa9c16-367c-457c-b82e-0c8f155b4ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogFile">
+      <UniqueIdentifier>{f7422305-10bc-4ecd-8516-2df66ba022b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="guithread">
+      <UniqueIdentifier>{c9890bad-9445-4b11-86cc-71e7aa066897}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Timestamp.cpp">
+      <Filter>Timestamp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LogFile.cpp">
+      <Filter>LogFile</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kguithread.cpp">
+      <Filter>guithread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HelperPCH.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HelperFuncs.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BatchFile.cpp">
+      <Filter>BatchFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Settings">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\BatchFile.h">
+      <Filter>BatchFile</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Timestamp.h">
+      <Filter>Timestamp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LogFile.h">
+      <Filter>LogFile</Filter>
+    </ClInclude>
+    <ClInclude Include="include\kguithread.h">
+      <Filter>guithread</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HelperPCH.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HelperFuncs.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
